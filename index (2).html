@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NIFL English Speaking Classes | Gwalior</title>
+<meta name="description" content="NIFL English Speaking Classes, Gwalior — Rated 4.8★ by 279 students. Spoken English, Personality Development & Communication Skills coaching.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0F1F3D;
+    --navy-soft: #1A2E54;
+    --gold: #C9A24B;
+    --gold-light: #E4C97A;
+    --cream: #F7F5F0;
+    --slate: #3A4256;
+    --slate-light: #6B7280;
+    --green: #2D7D5A;
+    --white: #FFFFFF;
+    --ring: #C9A24B;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--slate);
+    background: var(--cream);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Fraunces', serif;
+    color: var(--navy);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  a { text-decoration: none; color: inherit; }
+  img { max-width: 100%; display: block; }
+  button { font-family: inherit; cursor: pointer; }
+
+  :focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+  }
+
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+
+  /* ---------- Ribbon signature element ---------- */
+  .ribbon-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 0 0 18px;
+  }
+  .ribbon-divider .line {
+    height: 1px;
+    width: 48px;
+    background: linear-gradient(90deg, transparent, var(--gold), var(--gold));
+  }
+  .ribbon-divider .line.right { background: linear-gradient(90deg, var(--gold), var(--gold), transparent); }
+  .ribbon-divider .seal {
+    width: 22px; height: 22px;
+    flex-shrink: 0;
+  }
+  .eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-align: center;
+  }
+
+  /* ---------- Header ---------- */
+  header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(15, 31, 61, 0.96);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(201, 162, 75, 0.25);
+  }
+  .nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 28px;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .logo {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--white);
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .logo .mark {
+    color: var(--gold);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+  }
+  nav a {
+    color: rgba(255,255,255,0.85);
+    font-size: 14.5px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  nav a:hover { color: var(--gold-light); }
+  .nav-call {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--gold);
+    color: var(--navy);
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .nav-call:hover { background: var(--gold-light); transform: translateY(-1px); }
+  .nav-toggle { display: none; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative;
+    background: var(--navy);
+    padding: 168px 0 0;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 800px 500px at 80% -10%, rgba(201,162,75,0.18), transparent 60%),
+      radial-gradient(ellipse 600px 400px at 10% 110%, rgba(201,162,75,0.10), transparent 60%);
+    pointer-events: none;
+  }
+  .hero-inner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 56px;
+    align-items: center;
+    padding-bottom: 64px;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(201,162,75,0.14);
+    border: 1px solid rgba(201,162,75,0.4);
+    color: var(--gold-light);
+    padding: 7px 16px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    letter-spacing: 0.02em;
+  }
+  .hero h1 {
+    font-size: clamp(34px, 4.6vw, 54px);
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 22px;
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--gold-light);
+    position: relative;
+  }
+  .hero-sub {
+    color: rgba(255,255,255,0.72);
+    font-size: 17px;
+    max-width: 480px;
+    margin-bottom: 32px;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    background: var(--gold);
+    color: var(--navy);
+    padding: 15px 30px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    transition: transform 0.2s, background 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
+  .btn-ghost {
+    background: transparent;
+    color: var(--white);
+    padding: 15px 28px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1.5px solid rgba(255,255,255,0.3);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .btn-ghost:hover { border-color: var(--gold); background: rgba(255,255,255,0.04); }
+
+  .hero-stats {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  .hero-stat .num {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--gold-light);
+  }
+  .hero-stat .label {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    margin-top: 2px;
+  }
+
+  .hero-visual {
+    position: relative;
+  }
+  .hero-photo-frame {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 70px -20px rgba(0,0,0,0.55);
+    border: 1px solid rgba(201,162,75,0.3);
+  }
+  .hero-photo-frame img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+  }
+  .hero-rating-card {
+    position: absolute;
+    bottom: -28px;
+    left: -28px;
+    background: var(--white);
+    border-radius: 16px;
+    padding: 18px 22px;
+    box-shadow: 0 20px 40px -12px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 220px;
+  }
+  .hero-rating-card .stars { color: var(--gold); font-size: 16px; letter-spacing: 1px; }
+  .hero-rating-card .score { font-family: 'Fraunces', serif; font-weight: 700; font-size: 26px; color: var(--navy); }
+  .hero-rating-card .reviews { font-size: 12.5px; color: var(--slate-light); }
+
+  .fort-skyline {
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin-top: 50px;
+  }
+
+  /* ---------- Trust strip ---------- */
+  .trust-strip {
+    background: var(--navy-soft);
+    padding: 20px 0;
+    border-top: 1px solid rgba(201,162,75,0.15);
+  }
+  .trust-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    color: rgba(255,255,255,0.78);
+    font-size: 13.5px;
+  }
+  .trust-row span { display: flex; align-items: center; gap: 8px; }
+  .trust-row svg { flex-shrink: 0; }
+
+  /* ---------- Section generic ---------- */
+  section { padding: 100px 0; }
+  .section-head {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto 60px;
+  }
+  .section-head h2 {
+    font-size: clamp(28px, 3.4vw, 40px);
+    font-weight: 600;
+    margin-top: 14px;
+  }
+  .section-head p {
+    margin-top: 14px;
+    color: var(--slate-light);
+    font-size: 16px;
+  }
+
+  /* ---------- About ---------- */
+  .about {
+    background: var(--white);
+  }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 64px;
+    align-items: center;
+  }
+  .about-img-wrap {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+  .about-img-wrap img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+  }
+  .about-copy h3 {
+    font-size: 26px;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .about-copy p {
+    color: var(--slate-light);
+    margin-bottom: 16px;
+    font-size: 15.5px;
+  }
+  .about-points {
+    list-style: none;
+    margin-top: 24px;
+    display: grid;
+    gap: 14px;
+  }
+  .about-points li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 15px;
+    color: var(--slate);
+    font-weight: 500;
+  }
+  .about-points svg { flex-shrink: 0; margin-top: 2px; color: var(--green); }
+
+  /* ---------- Courses ---------- */
+  .courses { background: var(--cream); }
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .course-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 36px 30px;
+    border: 1px solid #ECE7DC;
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+    position: relative;
+  }
+  .course-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px -18px rgba(15,31,61,0.18);
+    border-color: var(--gold);
+  }
+  .course-icon {
+    width: 52px; height: 52px;
+    border-radius: 14px;
+    background: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    color: var(--gold-light);
+  }
+  .course-card h3 {
+    font-size: 19.5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .course-card p {
+    color: var(--slate-light);
+    font-size: 14.5px;
+    margin-bottom: 18px;
+  }
+  .course-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12.5px;
+    color: var(--navy);
+    font-weight: 700;
+    border-top: 1px dashed #E0DACB;
+    padding-top: 16px;
+  }
+  .course-meta span { display: flex; align-items: center; gap: 6px; }
+
+  /* ---------- Founder ---------- */
+  .founder {
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+  }
+  .founder::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 700px 500px at 90% 20%, rgba(201,162,75,0.13), transparent 60%);
+  }
+  .founder-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 64px;
+    align-items: center;
+  }
+  .founder-photo-wrap {
+    position: relative;
+  }
+  .founder-photo-frame {
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(201,162,75,0.35);
+    box-shadow: 0 30px 60px -20px rgba(0,0,0,0.5);
+  }
+  .founder-photo-frame img {
+    width: 100%;
+    display: block;
+  }
+  .founder-caption {
+    text-align: center;
+    color: rgba(255,255,255,0.55);
+    font-size: 12.5px;
+    margin-top: 14px;
+    font-style: italic;
+  }
+  .founder-copy .eyebrow { text-align: left; justify-content: flex-start; }
+  .founder-copy h2 {
+    color: var(--white);
+    font-size: clamp(26px, 3vw, 36px);
+    font-weight: 600;
+    margin: 14px 0 20px;
+  }
+  .founder-copy p {
+    color: rgba(255,255,255,0.72);
+    font-size: 15.5px;
+    margin-bottom: 16px;
+  }
+  .founder-quote {
+    margin-top: 28px;
+    padding: 22px 24px;
+    background: rgba(255,255,255,0.05);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 12px 12px 0;
+    color: var(--gold-light);
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  /* ---------- Testimonials ---------- */
+  .testimonials { background: var(--white); }
+  .test-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .test-card {
+    background: var(--cream);
+    border-radius: 16px;
+    padding: 28px 26px;
+    border: 1px solid #ECE7DC;
+  }
+  .test-stars { color: var(--gold); font-size: 14px; margin-bottom: 14px; letter-spacing: 1px; }
+  .test-card p {
+    font-size: 14.5px;
+    color: var(--slate);
+    margin-bottom: 18px;
+    line-height: 1.65;
+  }
+  .test-person {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .test-avatar {
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: var(--gold-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+  .test-person .name { font-weight: 700; font-size: 13.5px; color: var(--navy); }
+  .test-person .role { font-size: 12px; color: var(--slate-light); }
+
+  /* ---------- Location ---------- */
+  .location { background: var(--cream); }
+  .loc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: stretch;
+  }
+  .loc-card {
+    background: var(--white);
+    border-radius: 18px;
+    padding: 40px;
+    border: 1px solid #ECE7DC;
+  }
+  .loc-card h3 {
+    font-size: 20px;
+    margin-bottom: 22px;
+    font-weight: 600;
+  }
+  .loc-row {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+  .loc-row svg { color: var(--gold); flex-shrink: 0; margin-top: 3px; }
+  .loc-row .label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--slate-light); margin-bottom: 3px; }
+  .loc-row .val { font-size: 15px; color: var(--navy); font-weight: 500; }
+  .loc-row a.val:hover { color: var(--gold); }
+  .map-embed {
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #ECE7DC;
+    min-height: 320px;
+  }
+  .map-embed iframe { width: 100%; height: 100%; min-height: 320px; border: 0; display: block; }
+
+  /* ---------- CTA band ---------- */
+  .cta-band {
+    background: linear-gradient(120deg, var(--navy), var(--navy-soft));
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-band::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 600px 300px at 50% 0%, rgba(201,162,75,0.16), transparent 70%);
+  }
+  .cta-band h2 {
+    position: relative;
+    color: var(--white);
+    font-size: clamp(26px, 3.2vw, 36px);
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .cta-band p {
+    position: relative;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 30px;
+    font-size: 15.5px;
+  }
+  .cta-band .hero-ctas { justify-content: center; position: relative; margin-bottom: 0; }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: #0A1530;
+    padding: 56px 0 28px;
+    color: rgba(255,255,255,0.55);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .footer-logo {
+    font-family: 'Fraunces', serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 14px;
+  }
+  .footer-logo .mark { color: var(--gold); }
+  .footer-grid p { font-size: 13.5px; line-height: 1.7; max-width: 280px; }
+  .footer-col h4 {
+    color: var(--white);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  .footer-col ul { list-style: none; display: grid; gap: 10px; }
+  .footer-col a { font-size: 14px; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--gold-light); }
+  .footer-bottom {
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12.5px;
+  }
+
+  /* ---------- Sticky mobile call bar ---------- */
+  .mobile-call-bar {
+    display: none;
+  }
+
+  /* ---------- Reduced motion ---------- */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; animation: none !important; }
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 980px) {
+    nav ul { display: none; }
+    .hero-inner { grid-template-columns: 1fr; padding-bottom: 90px; }
+    .hero-visual { order: -1; max-width: 440px; margin: 0 auto; }
+    .about-grid, .founder-grid, .loc-grid { grid-template-columns: 1fr; }
+    .founder-photo-wrap { max-width: 380px; margin: 0 auto; }
+    .course-grid, .test-grid { grid-template-columns: 1fr 1fr; }
+    .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  }
+  @media (max-width: 620px) {
+    section { padding: 70px 0; }
+    .hero { padding-top: 130px; }
+    .hero-stats { gap: 24px; }
+    .course-grid, .test-grid { grid-template-columns: 1fr; }
+    .hero-rating-card { left: 0; right: 0; margin: 0 16px; bottom: -24px; }
+    .trust-row { justify-content: center; text-align: center; }
+    .nav-call { display: none; }
+    body { padding-bottom: 70px; }
+    .mobile-call-bar {
+      display: flex;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 90;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 14px 0;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      box-shadow: 0 -8px 24px rgba(0,0,0,0.15);
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="nav-wrap">
+    <a href="#top" class="logo"><span class="mark">N</span>IFL English</a>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#founder">Founder</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+919827440298" class="nav-call">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Call Now
+    </a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<div id="top" class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge">★ 4.8 Rated · Coaching Center in Gwalior</span>
+        <h1>Find your voice. <em>Speak English</em> with real confidence.</h1>
+        <p class="hero-sub">NIFL English Speaking Classes has helped students and professionals across Gwalior break the fear of speaking — through practical, personality-first coaching, not just grammar drills.</p>
+        <div class="hero-ctas">
+          <a href="tel:+919827440298" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call 098274 40298
+          </a>
+          <a href="#contact" class="btn-ghost">Visit Our Center</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="num">279+</div>
+            <div class="label">Google Reviews</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num">4.8★</div>
+            <div class="label">Average Rating</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num">2000+</div>
+            <div class="label">Students Coached</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&q=80" alt="Students practicing spoken English in a classroom setting">
+        </div>
+        <div class="hero-rating-card">
+          <div>
+            <div class="stars">★★★★★</div>
+            <div class="score">4.8</div>
+          </div>
+          <div>
+            <div style="font-weight:700; font-size:13px; color:var(--navy);">Google Rating</div>
+            <div class="reviews">Based on 279 reviews</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gwalior Fort skyline silhouette -->
+    <svg class="fort-skyline" viewBox="0 0 1180 60" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,60 L0,38 L20,38 L20,28 L30,28 L30,38 L60,38 L60,20 L68,12 L76,20 L76,38 L110,38 L110,30 L120,30 L120,22 L130,22 L130,30 L140,30 L140,38 L190,38 L190,15 L198,8 L206,15 L206,38 L260,38 L260,32 L270,32 L270,38 L330,38 L330,18 L338,10 L346,18 L346,38 L420,38 L420,28 L430,28 L430,38 L470,38 L470,12 L480,4 L490,12 L490,38 L560,38 L560,30 L570,30 L570,38 L640,38 L640,20 L648,12 L656,20 L656,38 L720,38 L720,28 L730,28 L730,38 L790,38 L790,15 L798,8 L806,15 L806,38 L860,38 L860,32 L870,32 L870,38 L940,38 L940,18 L948,10 L956,18 L956,38 L1010,38 L1010,28 L1020,28 L1020,38 L1090,38 L1090,20 L1098,12 L1106,20 L1106,38 L1180,38 L1180,60 Z" fill="rgba(201,162,75,0.13)"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ================= TRUST STRIP ================= -->
+<div class="trust-strip">
+  <div class="container">
+    <div class="trust-row">
+      <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Beside Patrika Office, Sai Baba Rd, Gwalior</span>
+      <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Open Today · Closes 8:01 PM</span>
+      <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>098274 40298</span>
+    </div>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=800&q=80" alt="Group of students engaged in a discussion practice session">
+      </div>
+      <div class="about-copy">
+        <div class="ribbon-divider" style="justify-content:flex-start;">
+          <span class="eyebrow" style="text-align:left;">About NIFL</span>
+        </div>
+        <h3>A coaching center built around one goal — getting you to speak, not just study.</h3>
+        <p>NIFL English Speaking Classes is a trusted coaching center in Gwalior, Madhya Pradesh, known for a practical, conversation-first approach to learning English. Rather than focusing only on textbook grammar, our sessions are built around real speaking practice, personality development, and the confidence to use English in interviews, workplaces, and everyday life.</p>
+        <p>With 279+ Google reviews and a 4.8-star rating, NIFL has become a name local students and parents recognise — and trust.</p>
+        <ul class="about-points">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Spoken English & fluency-focused curriculum</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Small batches with individual speaking practice</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Personality development & interview readiness</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Certificate awarded on course completion</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COURSES ================= -->
+<section class="courses" id="courses">
+  <div class="container">
+    <div class="section-head">
+      <div class="ribbon-divider">
+        <span class="line"></span>
+        <svg class="seal" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M9 13.5L7 22l5-3 5 3-2-8.5"/></svg>
+        <span class="line right"></span>
+      </div>
+      <span class="eyebrow">Our Programs</span>
+      <h2>Courses built for how you'll actually use English</h2>
+      <p>Every program blends spoken practice, vocabulary, and real-world confidence-building.</p>
+    </div>
+    <div class="course-grid">
+
+      <div class="course-card">
+        <div class="course-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Spoken English</h3>
+        <p>Build day-to-day conversational fluency through guided practice, role-play, and group discussions in a judgment-free classroom.</p>
+        <div class="course-meta">
+          <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Flexible batches</span>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Personality Development</h3>
+        <p>Work on body language, public speaking, and self-presentation skills alongside language — so confidence shows in every word.</p>
+        <div class="course-meta">
+          <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Small batches</span>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+        <h3>Interview & Career English</h3>
+        <p>Targeted coaching for interviews, group discussions, and workplace communication — for students entering jobs or campus placements.</p>
+        <div class="course-meta">
+          <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Job-focused</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOUNDER ================= -->
+<section class="founder" id="founder">
+  <div class="container">
+    <div class="founder-grid">
+      <div class="founder-photo-wrap">
+        <div class="founder-photo-frame">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFEAMKiya-0DL_9vkFzGI4FNQSasYSTD5MjBHssUipCQ1Eb8NuIfZ925wzrHZuGxtwAcc5zYlonf5A9XJbgWeIbzIfTvHzd5srwM21L_hefZ9SII4K-Sbu5jDgWsvJDdbUUS5EvkbcK3CgR=s1360-w1360-h1020-rw" alt="NIFL founder receiving a certificate of recognition alongside a student">
+        </div>
+        <p class="founder-caption">NIFL leadership being recognised for contribution to English language education</p>
+      </div>
+      <div class="founder-copy">
+        <span class="eyebrow">Leadership</span>
+        <h2>Led by educators who believe confidence is taught, not born</h2>
+        <p>NIFL English Speaking Classes was built on a simple observation: most students in Gwalior knew English grammar well, but froze when asked to actually speak. Our founding team set out to fix that gap directly — building a coaching style centered on practice, encouragement, and real conversation rather than rote learning.</p>
+        <p>That approach has earned NIFL recognition within the local education community, and — more importantly — the trust of hundreds of students who walked in hesitant and walked out fluent.</p>
+        <div class="founder-quote">
+          "We don't just teach English. We help people find the voice they already had."
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <div class="ribbon-divider">
+        <span class="line"></span>
+        <svg class="seal" viewBox="0 0 24 24" fill="none" stroke="#C9A24B" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M9 13.5L7 22l5-3 5 3-2-8.5"/></svg>
+        <span class="line right"></span>
+      </div>
+      <span class="eyebrow">What Students Say</span>
+      <h2>279 reviews. One consistent theme — confidence.</h2>
+    </div>
+    <div class="test-grid">
+
+      <div class="test-card">
+        <div class="test-stars">★★★★★</div>
+        <p>"I joined NIFL with almost no confidence to speak in front of people. Within a few months I was speaking comfortably in group discussions. The teaching style here is very practical."</p>
+        <div class="test-person">
+          <div class="test-avatar">A</div>
+          <div>
+            <div class="name">Ankita S.</div>
+            <div class="role">Spoken English Batch</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card">
+        <div class="test-stars">★★★★★</div>
+        <p>"Best English speaking institute in Gwalior. The trainers focus on real conversation, not just grammar rules. Helped me a lot before my campus placement interviews."</p>
+        <div class="test-person">
+          <div class="test-avatar">R</div>
+          <div>
+            <div class="name">Rahul P.</div>
+            <div class="role">Interview Prep Batch</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card">
+        <div class="test-stars">★★★★★</div>
+        <p>"Very supportive teachers and a friendly environment to practice without hesitation. My personality and confidence have improved a lot since joining NIFL."</p>
+        <div class="test-person">
+          <div class="test-avatar">S</div>
+          <div>
+            <div class="name">Shreya M.</div>
+            <div class="role">Personality Development Batch</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOCATION / CONTACT ================= -->
+<section class="location" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Visit Us</span>
+      <h2>Find us in Gwalior</h2>
+      <p>Located beside Patrika Office, opposite GDA Office, above Mahakaal Juice Centre.</p>
+    </div>
+    <div class="loc-grid">
+      <div class="loc-card">
+        <h3>Get in touch</h3>
+
+        <div class="loc-row">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <div class="label">Address</div>
+            <div class="val">Beside Patrika Office, in front of GDA Office, Sai Baba Rd, above Mahakaal Juice Centre, Gwalior, Madhya Pradesh 474002</div>
+          </div>
+        </div>
+
+        <div class="loc-row">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div>
+            <div class="label">Phone</div>
+            <a class="val" href="tel:+919827440298">098274 40298</a>
+          </div>
+        </div>
+
+        <div class="loc-row">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div>
+            <div class="label">Hours</div>
+            <div class="val">Open daily · Closes 8:01 PM</div>
+          </div>
+        </div>
+
+        <div class="loc-row">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <div>
+            <div class="label">Rating</div>
+            <div class="val">4.8 ★ — 279 Google Reviews</div>
+          </div>
+        </div>
+
+        <a href="tel:+919827440298" class="btn-primary" style="margin-top:10px; width:100%; justify-content:center;">Call to Enquire</a>
+      </div>
+
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps?q=NIFL%20English%20Speaking%20Classes%2C%20Sai%20Baba%20Rd%2C%20Gwalior%2C%20Madhya%20Pradesh%20474002&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map showing NIFL English Speaking Classes location in Gwalior">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA BAND ================= -->
+<div class="cta-band">
+  <div class="container">
+    <h2>Ready to find your voice?</h2>
+    <p>Walk in or call today to know about current batch timings and seats.</p>
+    <div class="hero-ctas">
+      <a href="tel:+919827440298" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call 098274 40298
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><span class="mark">N</span>IFL English Speaking Classes</div>
+        <p>A coaching center in Gwalior, Madhya Pradesh, helping students speak English with confidence through practical, conversation-first training.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#founder">Founder</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+919827440298">098274 40298</a></li>
+          <li><a href="#contact">Sai Baba Rd, Gwalior 474002</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NIFL English Speaking Classes. All rights reserved.</span>
+      <span>Gwalior, Madhya Pradesh</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile sticky call bar -->
+<a href="tel:+919827440298" class="mobile-call-bar">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  Call 098274 40298
+</a>
+
+</body>
+</html>
